@@ -26,3 +26,10 @@ Create a symbolic link from ~/.zshrc back to the dot-file directory:
 
 
     ln -s ~/dot-file/.zshrc ~/.zshrc
+
+
+## Restart ZSH
+
+    exec zsh
+    source ~/.zshrc
+
